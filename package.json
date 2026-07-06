@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "0.9.8",
+    "@astrojs/tailwind": "^6.0.0",
     "@tailwindcss/vite": "4.2.2",
     "astro": "6.1.5",
     "tailwindcss": "4.2.2",
@@ -20,5 +21,6 @@
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.7.2"
-  }
+  },
+  "packageManager": "pnpm@10.18.2"
 }
