@@ -5,6 +5,9 @@ import { fontProviders } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://WalterJoelCode.github.io',
+  base: '/Portafolio',
+
   fonts: [
     {
       provider: fontProviders.fontsource(),
